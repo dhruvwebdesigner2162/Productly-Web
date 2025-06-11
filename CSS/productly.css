@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.fw-custombold {
+    font-weight: 600;
+}
+
+.word-spacing {
+    word-spacing: 2px;
+}
+
+.custom-warning {
+    background-color: #FF9900;
+    color: white;
+}
+
+.custom-warning-color {
+    color: #FF9900;
+}
+
+.tools_ip {
+    background-image: url(../Images/tools\ background\ image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width: 375px) {
+    .db {
+        display: block !important;
+        text-align: center !important;
+        display: grid;
+        place-items: center;
+    }
+
+    .mm {
+        margin: 0 !important;
+    }
+}
